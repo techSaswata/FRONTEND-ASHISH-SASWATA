@@ -64,9 +64,47 @@
 
     <!-- Forms -->
     <!-- form action specifies the database into which the data will be stored -->
+        <!-- 
+        <input type="text" placeholder="Enter your Name" value="Saswata" readonly>
+        your name can't be edited --> 
 
     <form action="">
-        <input type="text" placeholder="Enter your Name">
+        <input type="text" placeholder="Enter your Name" required>
+        <br><br>
+
+        <input type="email" placeholder="Enter your Email" required>
+        <br><br>
+
+        <input type="date" placeholder="DOB" required>
+        <br><br>
+
+        <input type="datetime-local" placeholder="slot" required>
+        <br><br>
+
+        <!-- Radio -->
+        <label for="">Gender</label> <br><br>
+
+        <label for="">Male</label>
+        <input type="radio" name="gender">
+
+        <label for="">Female</label>
+        <input for="radio" name="gender"></input>
+        <br><br>
+
+        <!-- Checkbox -->
+        <label for="">Check all suitable criteria</label>
+        <label for="">Monday</label>
+        <input type="checkbox" name="day"> <br>
+
+        <label for="">Monday</label>
+        <input type="checkbox" name="day"> <br>
+
+        <label for="">Monday</label>
+        <input type="checkbox" name="day"> <br>
+
+        <!-- Option -->
+        
+        <!-- Submit -->
         <button type="submit">Submit</button>
     </form>
 
