@@ -60,7 +60,7 @@
             <td>Welcome</td>
         </tr>
     </table>
-
+    <br><br>
 
     <!-- Forms -->
     <!-- form action specifies the database into which the data will be stored -->
@@ -85,28 +85,71 @@
         <label for="">Gender</label> <br><br>
 
         <label for="">Male</label>
-        <input type="radio" name="gender">
+        <input type="radio" name="gender"></input>
 
         <label for="">Female</label>
-        <input for="radio" name="gender"></input>
+        <input type="radio" name="gender"></input>
         <br><br>
 
         <!-- Checkbox -->
         <label for="">Check all suitable criteria</label>
-        <label for="">Monday</label>
-        <input type="checkbox" name="day"> <br>
+        <label for="">Sunday</label>
+        <input type="checkbox" name="day" value="Sunday"> <br>
 
         <label for="">Monday</label>
-        <input type="checkbox" name="day"> <br>
+        <input type="checkbox" name="day" value="Monday"> <br>
 
-        <label for="">Monday</label>
-        <input type="checkbox" name="day"> <br>
+        <label for="">Tuesday</label>
+        <input type="checkbox" name="day" value="Tuesday"> <br>
 
         <!-- Option -->
-        
+        <select name="degree" id="">
+            <option name="degree" value="Btech">Btech</option>
+            <option name="degree" value="Mtech">Mtech</option>
+            <option name="degree" value="BCA">BCA</option>
+            <option name="degree" value="MCA">MCA</option>
+        </select>
+
+        <br><br>
+
+        <!-- Basic Criteria Checking -->
+        <input type="text" placeholder="Enter Phone Number" minlength="10" maxlength="13">
+
         <!-- Submit -->
         <button type="submit">Submit</button>
     </form>
+
+
+
+
+    <!-- Semantic Tags -->
+    <!-- Organizing the Contents -->
+    <!-- main, header, nav, aside, footer, section -->
+
+    <main>
+
+        <header>
+            <nav>
+                <p>this is navbar</p>
+            </nav>
+            <p>this is header</p>
+        </header>
+
+        <section>
+            <aside>
+                <p>thsis is my main content</p>
+            </aside>
+
+            <div>
+                this is my sidebar
+            </div>
+        </section>
+
+        <footer>
+            <p>this is my footer</p>
+        </footer>
+
+    </main>
 
 </body>
 </html>
