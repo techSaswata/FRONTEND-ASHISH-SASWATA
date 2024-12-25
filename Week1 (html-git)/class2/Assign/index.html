@@ -55,7 +55,33 @@
 
     <!-- Form -->
     <form action="">
-        
+        <h2>Please fill your details!</h2> 
+        <input type="text" placeholder="Enter your name" minlength="3" maxlength="50" required> <br><br>
+        <input type="email" placeholder="Enter your email" required> <br><br>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other" required> <br><br>
+
+        <!-- Dropdown -->
+        <select name="age" id="">
+            <option name="age" value="18-24">18-24</option>
+            <option name="age" value="25-34">25-34</option>
+            <option name="age" value="35-44">35-44</option>
+        </select> <br><br>
+
+        <!-- Checkbox -->
+        <label for="">Subscribe to our newsletter</label>
+        <input type="checkbox" name="Subscribe" value="yes"> <br><br>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+
     </form>
 </body>
 </html>
