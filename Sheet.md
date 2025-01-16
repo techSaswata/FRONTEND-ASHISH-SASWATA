@@ -38,7 +38,7 @@ These are designed to build a strong foundation in DOM manipulation.
 ---
 
 ### **Section 2:**
-These questions are designed to deepen your understanding of manipulating the DOM dynamically.
+These are designed to deepen your understanding of manipulating the DOM dynamically.
 
 1. **Create a List**  
    - Write a function that dynamically creates an unordered list (`<ul>`) with 5 items (`<li>`) labeled "Item 1", "Item 2", ..., "Item 5" and appends it to a container with the ID `list-container`.
@@ -73,7 +73,7 @@ These questions are designed to deepen your understanding of manipulating the DO
 ---
 
 ### **Section 3**
-These questions challenge you to combine multiple DOM techniques in creative ways.
+These topics challenge you to combine multiple DOM techniques in creative ways.
 
 1. **Dynamic To-Do List**  
    - Create a simple to-do list. It should have an input field where users can type new tasks, a button to add the task, and each task should have a "Delete" button to remove the task from the list.
