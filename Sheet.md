@@ -1,9 +1,9 @@
-**DOM Manipulation Practice Sheet**
+**DOM Manipulation**
 
 ---
 
-### **Section 1: Easy (10 Questions)**
-These questions are designed to build a strong foundation in DOM manipulation.
+### **Section 1:**
+These are designed to build a strong foundation in DOM manipulation.
 
 1. **Selecting Elements**  
    - Write a function to select an element with the ID `header-title` and change its text content to "Welcome to the DOM Practice!"
@@ -37,7 +37,7 @@ These questions are designed to build a strong foundation in DOM manipulation.
 
 ---
 
-### **Section 2: Medium (10 Questions)**
+### **Section 2:**
 These questions are designed to deepen your understanding of manipulating the DOM dynamically.
 
 1. **Create a List**  
@@ -72,7 +72,7 @@ These questions are designed to deepen your understanding of manipulating the DO
 
 ---
 
-### **Section 3: Hard (10 Questions)**
+### **Section 3**
 These questions challenge you to combine multiple DOM techniques in creative ways.
 
 1. **Dynamic To-Do List**  
