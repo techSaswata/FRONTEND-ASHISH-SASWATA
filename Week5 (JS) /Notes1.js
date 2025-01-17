@@ -109,7 +109,7 @@ else{
 
 
 //ternary operator
-let age = 24;
+let age1 = 24;
 age >= 18 ? console.log('You are an adult') : console.log('You are a minor');
 
 
