@@ -113,3 +113,7 @@ age >= 18 ? console.log('You are an adult') : console.log('You are a minor');
 
 - `===` (strictly equal to): Compares value and data types
 - `==` (equal to): Compares value only
+
+
+# Referance Video
+- Week5 Class2
