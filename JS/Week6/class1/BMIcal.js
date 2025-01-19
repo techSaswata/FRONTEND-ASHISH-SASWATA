@@ -8,19 +8,23 @@ function calBmi(){
     let BMIprimediv = document.getElementById('BMIprimediv')
     let BMI = document.getElementById('BMI')
     let heightdropdown = document.getElementById('heightdropdown')
+    let weightdropdown = document.getElementById('weightdropdown')
 
     BMIdiv.style.display = 'flex'
     BMIprimediv.style.display = 'flex'
 
-    if (heightdropdown.value=='metre'){
-        BMI.value = (weight.value/(height.value*height.value)).toFixed(2)
-    }
-    
+    // BMI
     if (heightdropdown.value=='foot'){
         height.value = (height.value*0.3048)
-        BMI.value = (weight.value/(height.value*height.value)).toFixed(2)
     }
 
+    if (weightdropdown.value=='gram'){
+        weight.value = (weight.value*0.001)
+    }
+
+    BMI.value = (weight.value/(height.value*height.value)).toFixed(2)
+
+    // BMI Prime
     let BMIprime = document.getElementById('BMIprime')
     BMIprime.value = (BMI.value/25).toFixed(2)
 
